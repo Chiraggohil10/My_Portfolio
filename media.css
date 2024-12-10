@@ -93,7 +93,7 @@
 
 @media (max-width:768px) {
     .sec2{
-        width: 140%;
+        width: 100%;
     }
 }
 
@@ -137,7 +137,7 @@
 @media (max-width: 400px) {
     .sec2 {
         padding: 20px 90px;
-        width: 1100px;
+        width: 100%;
     }
 
 
@@ -229,7 +229,7 @@
         align-items: center;
         justify-content:space-between;
         padding: 0px 10px;
-        width: 1070px;
+        width: 100%;
     }
 
     .contimg img {
@@ -277,7 +277,7 @@
     .container {
         padding: 0px;
         flex-direction: column;
-        width: 1070px;
+        width: 100%;
         display: flex;
         align-items: center;
     }
@@ -296,7 +296,7 @@
     }
 
     .conwrt {
-        width: 1060px;
+        width: 100%;
         padding: 0px 20px;
     }
 }
@@ -305,7 +305,7 @@
     .container {
         padding: 0px 0px;
         flex-direction: column;
-        width: 1200px;
+        width: 100%;
     }
 
     .contimg img {
@@ -314,7 +314,7 @@
     }
 
     .conwrt {
-        width: 1078px;
+        width: 100%;
         padding: 20px;
     }
 
@@ -358,7 +358,7 @@
 @media (max-width: 400px) {
     .container {
         padding: 0px 20px;
-        width: 1090px;
+        width: 100%;
     }
 
     .contimg img {
@@ -399,7 +399,7 @@
 @media (max-width: 1024px) {
     .sec4 {
         padding: 70px 16px;
-        width: 1020px;
+        width: 100%;
         align-items: center;
         position: relative;
         left: 13px;
@@ -411,7 +411,7 @@
 
     .grid {
         display: flex;
-        width: 1000px;
+        width: 100%;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -436,7 +436,7 @@
     .grid {
         display: flex;
         flex-wrap: wrap;
-        width: 1010px;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -469,7 +469,7 @@
 
 @media (max-width: 600px) {
     .grid {
-        width: 1050px;
+        width: 100%;
     }
 }
 
@@ -510,7 +510,7 @@
 /* For Tablets (600px - 1024px) */
 @media (max-width: 1024px) {
     .project{
-        width: 995px;
+        width: 100%;
         padding: 0px;
         position: relative;
         left: 30px;
@@ -545,7 +545,7 @@
 
     .project {
         padding: 32px 15px;
-        width: 1020px;
+        width: 100%;
         position: relative;
         left: 24px;
     }
