@@ -66,13 +66,14 @@
 
 @media (max-width: 900px) {
     .sec2 {
-        /* padding: 40px 40px; */
+        padding: 40px 40px;
         flex-direction: column-reverse;
         height: auto;
     }
 
     .content {
         text-align: center;
+        width: 100%;
     }
 
     .chirag {
@@ -91,7 +92,7 @@
     }
 
     .a4 {
-        font-size: 18px;
+        font-size: 21px;
     }
 
     .chirag img {
@@ -111,7 +112,7 @@
 
 @media (max-width: 600px) {
     .sec2 {
-        padding: 50px 70px;
+        padding: 50px 40px;
         height: auto;
     }
 
@@ -132,7 +133,7 @@
     }
 
     .chirag img {
-        width: 300px;
+        width: 200px;
     }
 
     .btn {
@@ -147,7 +148,7 @@
 
 @media (max-width: 400px) {
     .sec2 {
-        padding: 20px 90px;
+        padding: 20px 40px;
     }
 
 
@@ -168,7 +169,7 @@
     }
 
     .chirag img {
-        width: 100%;
+        width: 200px;
     }
 
     .btn {
