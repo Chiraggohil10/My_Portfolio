@@ -377,7 +377,8 @@
     }
 
     .contimg img {
-        width: 350px;
+        width: 100%;
+        padding: 0px 20px;
         height: 250px;
     }
 
