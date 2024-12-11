@@ -59,7 +59,7 @@ html {
     padding: 0px 20px;
 }
 
-.nav a:hover {
+.nav li:hover {
     color: rgb(234 179 8);
     transition: 200ms;
     transition-duration: 0.2s;
