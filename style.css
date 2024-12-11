@@ -21,7 +21,7 @@ html {
 
 .header {
     height: 80px;
-    min-width: 100%;
+    min-width: 99.2%;
     padding: 16px;
     background-color: rgb(254 252 232);
     display: flex;
@@ -89,78 +89,6 @@ html {
     transition: 200ms;
 }
 
-/* .sec2 {
-    background: linear-gradient(to top, #ffffff, rgb(254 252 232));
-    height: 650px;
-    padding: 40px 160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.content {
-    color: black;
-    width: 599px;
-}
-
-.a1 {
-    font-size: 20px;
-    font-weight: inherit;
-    color: #eab308;
-    margin: 0px 0px -8px;
-}
-
-.a2 {
-    font-size: 60px;
-    padding: 8px 0px;
-}
-
-.a3 {
-    font-size: 24px;
-    color: #16a34a;
-    font-weight: inherit;
-}
-
-.a4 {
-    font-size: 24px;
-    color: black;
-    letter-spacing: -.05em;
-}
-
-.btn {
-    padding: 12px 32px;
-    margin-right: 16px;
-    font-size: 16px;
-    background-color: #eab308;
-    border: none;
-    border-radius: 0.5rem;
-    text-align: center;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: rgb(250 204 21);
-    transition: 200ms;
-}
-
-.buttonmain {
-    margin-top: 17px;
-}
-
-.apdf {
-    text-decoration: none;
-    color: #eab308;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.chirag img {
-    width: 250px;
-    position: relative;
-    top: 40px;
-    filter: drop-shadow(10px 10px 10px #f4cf61);
-} */
-
 .sec2 {
     background: linear-gradient(to top, #ffffff, rgb(254 252 232));
     height: 650px;
@@ -169,7 +97,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .content {
@@ -300,7 +227,6 @@ p {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* Ensures elements wrap for smaller screens */
 }
 
 .contimg img {
@@ -310,8 +236,8 @@ p {
 }
 
 .conwrt {
-    height: 570px;
     width: 703px;
+    text-align: justify;
     padding: 0px 0px 0px 48px;
 }
 
