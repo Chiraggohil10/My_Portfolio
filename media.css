@@ -537,6 +537,13 @@
         margin: 0px;
     }
 
+    .explore2{
+        font-size: 19px;
+    }
+    .explore1 {
+        text-align: center;
+    }
+
     .gridbox {
         width: 80%;
         margin: 40px 0px 0px;
@@ -581,7 +588,7 @@
     }
 
     .explore2 {
-        font-size: 16px;
+        font-size: 19px;
     }
 
     .gridhead {
@@ -594,8 +601,6 @@
 
 
 }
-
-
 
 @media (max-width: 480px) {
     .con2 h2 {
