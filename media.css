@@ -47,6 +47,9 @@
         font-size: 20px;
         margin-bottom: 7px;
     }
+    .a4{
+        font-size: 20px;
+    }
 }
 
 
@@ -70,6 +73,7 @@
 
     .a4 {
         font-size: 18px;
+        line-height: 1.9rem;
     }
 
     .chirag img {
