@@ -471,7 +471,7 @@
     .conwrt h2 {
         font-size: 28px;
         text-align: center;
-        margin: 0px;
+        margin: 12px 0px;
         height:40px;
     }
 
@@ -498,19 +498,6 @@
         font-size: 12px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Media Queries for sec4 */
