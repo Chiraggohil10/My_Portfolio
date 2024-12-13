@@ -397,6 +397,10 @@
         padding: 0px 40px;
         width: 100%;
     }
+    .conicon1 svg {
+        height: 36px;
+        width: 36px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -427,16 +431,9 @@
         line-height: 1.4;
     }
 
-    .conicon1 {
-        flex-direction: column;
-        margin-bottom: 16px;
-    }
-
     .conicon1 svg {
-        height: 30px;
-        width: 30px;
-        position: relative;
-        left: 10px;
+        height: 36px;
+        width: 36px;
     }
 
     .k h4 {
@@ -484,8 +481,8 @@
     }
 
     .conicon1 svg {
-        height: 28px;
-        width: 28px;
+        height: 36px;
+        width: 36px;
     }
 
     .k h4 {
