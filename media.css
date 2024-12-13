@@ -19,18 +19,20 @@
 }
 
 @media (max-width:600px) {
-    .logo{
+    .logo {
         padding-left: 40px;
     }
+
     .icontoggle {
         padding-right: 40px;
     }
 }
 
 @media (max-width:400px) {
-    .logo{
+    .logo {
         padding-left: 0px;
     }
+
     .icontoggle {
         padding-right: 0px;
     }
@@ -42,12 +44,13 @@
     .sec2 {
         padding: 40px 80px;
     }
-    
+
     .a3 {
         font-size: 20px;
         margin-bottom: 7px;
     }
-    .a4{
+
+    .a4 {
         font-size: 20px;
     }
 }
@@ -207,12 +210,13 @@
 /* Media Queries for sec3 */
 @media (max-width:1280px) {
 
-    .sec3{
+    .sec3 {
         height: 100%;
     }
+
     .container {
         padding: 0px 20px;
-        
+
     }
 
     .contimg img {
@@ -254,6 +258,7 @@
         font-size: 14px;
     }
 }
+
 @media (max-width: 1024px) {
     .container {
         padding: 0px 40px;
@@ -314,9 +319,10 @@
         justify-content: center;
     }
 
-    .contimg{
-        padding:0px 0px;
+    .contimg {
+        padding: 0px 0px;
     }
+
     .sec3 {
         padding: 0px 0px;
     }
@@ -368,10 +374,11 @@
         align-items: center;
     }
 
-    .conwrt{
+    .conwrt {
         height: 100%;
         margin-left: 0px;
     }
+
     .conwrt p {
         font-size: 18px;
         line-height: 1.4;
@@ -448,7 +455,7 @@
         padding: 40px 0px;
     }
 
-    .conwrt{
+    .conwrt {
         height: 100%;
         padding-top: 0px;
         margin-left: 0px;
@@ -487,5 +494,131 @@
 
     .apdfd {
         font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries for sec4 */
+
+@media (max-width: 1024px) {
+    .sec4 {
+        padding: 70px 12px;
+        align-items: center;
+        position: relative;
+    }
+
+    .con1 {
+        padding: 0px;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .con2 h2 {
+        margin: 0px;
+    }
+
+    .gridbox {
+        width: 80%;
+        margin: 40px 0px 0px;
+    }
+
+    .skillcon {
+        text-align: center;
+        padding: 12px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .con2 h2 {
+        font-size: 19px;
+        margin: 0px;
+    }
+
+    .con1 {
+        margin: 20px 0px 0px;
+    }
+
+    .sec4 {
+        padding: 48px 16px;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .explore1 {
+        text-align: center;
+    }
+
+    .gridbox {
+        width: 90%;
+        margin: 40px 0px 0px;
+
+    }
+
+    .explore2 {
+        font-size: 16px;
+    }
+
+    .gridhead {
+        font-size: 18px;
+    }
+
+    .skillcon {
+        padding: 6px;
+    }
+
+
+}
+
+
+
+@media (max-width: 480px) {
+    .con2 h2 {
+        font-size: 17px;
+    }
+
+    .sec4 {
+        padding: 40px 10px;
+    }
+    .gridbox{
+        margin: 20px 0px 0px;
+    }
+    .explore2 {
+        font-size: 14px;
+    }
+
+    .gridhead {
+        font-size: 16px;
+    }
+
+    .skilltitle {
+        padding: 6px;
+    }
+
+    .skillcon {
+        font-size: 14px;
     }
 }
