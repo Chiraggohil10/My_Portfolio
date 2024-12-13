@@ -80,78 +80,7 @@ html {
     transition: 200ms;
 }
 
-/* .sec2 {
-    background: linear-gradient(to top, #ffffff, rgb(254 252 232));
-    height: 650px;
-    padding: 40px 160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.content {
-    color: black;
-    width: 599px;
-}
-
-.a1 {
-    font-size: 20px;
-    font-weight: inherit;
-    color: #eab308;
-    margin: 0px 0px -8px;
-}
-
-.a2 {
-    font-size: 60px;
-    padding: 8px 0px;
-}
-
-.a3 {
-    font-size: 24px;
-    color: #16a34a;
-    font-weight: inherit;
-}
-
-.a4 {
-    font-size: 24px;
-    color: black;
-    letter-spacing: -.05em;
-}
-
-.btn {
-    padding: 12px 32px;
-    margin-right: 16px;
-    font-size: 16px;
-    background-color: #eab308;
-    border: none;
-    border-radius: 0.5rem;
-    text-align: center;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: rgb(250 204 21);
-    transition: 200ms;
-}
-
-.buttonmain {
-    margin-top: 17px;
-}
-
-.apdf {
-    text-decoration: none;
-    color: #eab308;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.chirag img {
-    width: 250px;
-    position: relative;
-    top: 40px;
-    filter: drop-shadow(10px 10px 10px #f4cf61);
-} */
-
+/* Sec-2 CSS */
 .sec2 {
     background: linear-gradient(to top, #ffffff, rgb(254 252 232));
     height: 650px;
@@ -160,7 +89,6 @@ html {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    /* Ensure elements wrap in smaller screens */
 }
 
 .content {
@@ -226,61 +154,7 @@ html {
     filter: drop-shadow(10px 10px 10px #f4cf61);
 }
 
-
-/* .sec3 {
-    padding: 64px 0px;
-}
-
-.container {
-    padding: 0px 56px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.contimg img {
-    width: 450px;
-    height: 288px;
-    border-radius: 18px;
-}
-
-.conwrt {
-    height: 570px;
-    width: 703px;
-    padding: 0px 0px 0px 48px;
-}
-
-.conwrt h2 {
-    font-size: 60px;
-    height: 60px;
-    margin-bottom: 1.5rem;
-    margin-top: 20px;
-}
-
-.conwrt p {
-    color: rgb(75 85 99);
-    margin-bottom: 1.5rem;
-    line-height: 1.7rem;
-}
-
-.conicon1 {
-    display: flex;
-    margin: 0px 0px 24px;
-}
-
-.conicon1 svg {
-    height: 48px;
-    width: 48px;
-    color: #eab308;
-    margin: 0px 16px 0px 0px;
-}
-
-.k h4,
-p {
-    color: #374151;
-    font-size: 16px;
-} */
-
+/* Sec-3 CSS */
 .sec3 {
     padding: 64px 0px;
 }
@@ -291,7 +165,6 @@ p {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* Ensures elements wrap for smaller screens */
 }
 
 .contimg img {
@@ -360,99 +233,7 @@ p {
     transition: 200ms;
 }
 
-
-
-/* .sec4 {
-    padding: 64px 32px;
-}
-
-.con1 {
-    height: 76px;
-    margin: 20px 0px 48px 0px;
-    padding: 0px 96px;
-    text-align: center;
-}
-
-.con2 h3 {
-    color: #eab308;
-    font-size: 18px;
-    margin: 0px 0px 8px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.con2 h2 {
-    font-size: 36px;
-    color: #1f2937;
-    margin: 0px 0px 16px;
-}
-
-.sec4con {
-    height: 76px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 2.5rem;
-}
-
-.gridbox {
-    background-color: #58566D;
-    margin: 40px 0px 0px;
-    padding: 20px;
-    border-radius: .25rem;
-}
-
-.gridhead {
-    font-size: 20px;
-    color: #D1d5db;
-    margin: 0px 0px 20px;
-    padding: 12px 0px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.skillname {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.skilltitle {
-    background-color: #14131A;
-    padding: 8px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.skillcon {
-    padding: 0px 8px;
-    color: #d1d5db;
-}
-
-.explore1 {
-    margin-top: 2rem;
-    text-align: right;
-}
-
-.explore2 {
-    text-decoration: inherit;
-    font-size: 17px;
-    font-weight: 600;
-    color: #eab308;
-}
-
-.explore2:hover {
-    color: rgb(250 204 21);
-    transition: 200ms;
-}
-
-.explore2 svg {
-    position: relative;
-    top: 3px;
-} */
-
+/* Sec-4 CSS */
 .sec4 {
     padding: 64px 32px;
 }
