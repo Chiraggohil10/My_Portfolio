@@ -475,6 +475,7 @@
         font-size: 28px;
         text-align: center;
         margin: 0px;
+        height:40px;
     }
 
     .conwrt p {
@@ -601,7 +602,8 @@
 
 @media (max-width: 480px) {
     .con2 h2 {
-        font-size: 17px;
+        font-size: 15px;
+        width: 100%;
     }
 
     .sec4 {
