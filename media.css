@@ -240,7 +240,6 @@
 
   .conwrt p {
     font-size: 17px;
-    text-align: justify;
     width: 100%;
   }
 
@@ -293,7 +292,6 @@
 
   .conwrt p {
     font-size: 17px;
-    text-align: justify;
     width: 100%;
   }
 
@@ -514,7 +512,6 @@
     padding: 70px 12px;
     width: 100%;
     align-items: center;
-    position: relative;
   }
 
   .con1 {
