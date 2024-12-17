@@ -583,6 +583,7 @@ p {
     list-style: none;
     margin: 12px 0px 0px;
     padding: 0px;
+    
 }
 
 .footername a {
@@ -592,6 +593,7 @@ p {
 
 .footername li {
     margin: 8px 0px 0px;
+    
 }
 
 .footername a:hover {
