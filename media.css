@@ -1,622 +1,841 @@
-/* Media Queries for nav */
-@media (max-width:768px) {
-    .nav {
-        display: none;
-    }
+/* Media Queries for 1st section */
+@media (max-width: 768px) {
+  .header {
+    height: 64px;
+  }
 
-    .pdf {
-        display: none;
-    }
+  .pdf {
+    padding-right: 0px;
+  }
 
-    .icontoggle {
-        display: inline;
-        padding-right: 100px;
-    }
+  .btnu {
+    padding: 8px 8px;
+  }
 
-    .logo {
-        padding-left: 100px;
-    }
+  .nav a {
+    padding: 0px 11px;
+  }
+
+  .logo {
+    padding-left: 0px;
+  }
 }
 
-@media (max-width:600px) {
-    .logo {
-        padding-left: 40px;
-    }
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
 
-    .icontoggle {
-        padding-right: 40px;
-    }
+  .pdf {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 40px;
+  }
+
+  .icontoggle {
+    display: inline;
+    padding-right: 40px;
+  }
 }
 
-@media (max-width:400px) {
-    .logo {
-        padding-left: 0px;
-    }
+@media (max-width: 400px) {
+  .logo {
+    padding-left: 50px;
+  }
 
-    .icontoggle {
-        padding-right: 0px;
-    }
+  .icontoggle {
+    padding-right: 50px;
+  }
 }
 
-
-/* Media Queries for sec2 */
+/* Media Queries for 2nd section */
 @media (max-width: 1280px) {
-    .sec2 {
-        padding: 40px 80px;
-    }
+  .sec2 {
+    padding: 40px 80px;
+  }
 
-    .a3 {
-        font-size: 20px;
-        margin-bottom: 7px;
-    }
+  .a3 {
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
 
-    .a4 {
-        font-size: 20px;
-    }
+  .a4 {
+    font-size: 20px;
+  }
 }
 
-
 @media (max-width: 1024px) {
-    .sec2 {
-        padding: 40px 120px;
-    }
+  .sec2 {
+    padding: 40px 120px;
+  }
 
-    .content {
-        width: 400px;
-    }
+  .content {
+    width: 400px;
+  }
 
-    .a2 {
-        font-size: 48px;
-    }
+  .a2 {
+    font-size: 48px;
+  }
 
-    .a3 {
-        font-size: 20px;
-        margin-bottom: 7px;
-    }
+  .a3 {
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
 
-    .a4 {
-        font-size: 18px;
-    }
+  .a4 {
+    font-size: 18px;
+  }
 
-    .chirag img {
-        width: 250px;
-    }
+  .chirag img {
+    width: 250px;
+  }
 }
 
 @media (max-width: 900px) {
-    .sec2 {
-        padding: 40px 40px;
-        flex-direction: column-reverse;
-        height: auto;
-    }
+  .sec2 {
+    padding: 40px 40px;
+    flex-direction: column-reverse;
+    height: auto;
+  }
 
-    .content {
-        text-align: center;
-        width: 100%;
-    }
+  .content {
+    text-align: center;
+    width: 100%;
+  }
 
-    .chirag {
-        margin-top: 30px;
-        margin-bottom: 80px;
-        display: flex;
-        justify-content: center;
-    }
+  .chirag {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+  }
 
-    .a2 {
-        font-size: 40px;
-    }
+  .a2 {
+    font-size: 40px;
+  }
 
-    .a3 {
-        font-size: 18px;
-        padding-bottom: 7px;
-    }
+  .a3 {
+    font-size: 18px;
+    padding-bottom: 7px;
+  }
 
-    .a4 {
-        font-size: 18px;
-    }
+  .a4 {
+    font-size: 18px;
+  }
 
-    .chirag img {
-        width: 300px;
-    }
+  .chirag img {
+    width: 300px;
+  }
 
-    .btn {
-        padding: 10px 25px;
-        font-size: 14px;
-    }
+  .btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
 
-    .apdf {
-        font-size: 14px;
-    }
+  .apdf {
+    font-size: 14px;
+  }
 }
 
-
 @media (max-width: 600px) {
-    .sec2 {
-        padding: 50px 20px;
-        height: auto;
-    }
+  .sec2 {
+    padding: 50px 20px;
+    height: auto;
+  }
 
-    .content {
-        width: 100%;
-    }
+  .content {
+    width: 100%;
+  }
 
-    .a2 {
-        font-size: 36px;
-    }
+  .a2 {
+    font-size: 36px;
+  }
 
-    .a3 {
-        font-size: 16px;
-    }
+  .a3 {
+    font-size: 16px;
+  }
 
-    .a4 {
-        font-size: 16px;
-    }
+  .a4 {
+    font-size: 16px;
+  }
 
-    .chirag img {
-        width: 200px;
-    }
+  .chirag img {
+    width: 200px;
+  }
 
-    .btn {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 
-    .apdf {
-        font-size: 14px;
-    }
+  .apdf {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 400px) {
-    .sec2 {
-        padding: 20px 15px;
-    }
+  .sec2 {
+    padding: 20px 15px;
+  }
 
+  .a1 {
+    font-size: 18px;
+  }
 
-    .a1 {
-        font-size: 18px;
-    }
+  .a2 {
+    font-size: 32px;
+  }
 
-    .a2 {
-        font-size: 32px;
-    }
+  .a3 {
+    font-size: 14px;
+  }
 
-    .a3 {
-        font-size: 14px;
-    }
+  .a4 {
+    font-size: 12px;
+    margin-top: 8px;
+    line-height: 1.4rem;
+  }
 
-    .a4 {
-        font-size: 12px;
-        margin-top: 8px;
-        line-height: 1.4rem;
-    }
+  .chirag img {
+    width: 200px;
+    filter: drop-shadow(5px 5px 5px #f4cf61);
+  }
 
-    .chirag img {
-        width: 200px;
-        filter: drop-shadow(5px 5px 5px #f4cf61);
+  .btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
 
-    }
-
-    .btn {
-        padding: 8px 16px;
-        font-size: 12px;
-    }
-
-    .apdf {
-        font-size: 12px;
-    }
+  .apdf {
+    font-size: 12px;
+  }
 }
 
+/* Media Queries for 3rd section */
+@media (max-width: 1280px) {
+  .sec3 {
+    height: 100%;
+  }
 
-/* Media Queries for sec3 */
-@media (max-width:1280px) {
+  .container {
+    padding: 0px 20px;
+  }
 
-    .sec3 {
-        height: 100%;
-    }
+  .contimg img {
+    width: 386px;
+    height: 250px;
+  }
 
-    .container {
-        padding: 0px 20px;
+  .conwrt {
+    width: 560px;
+    padding: 0px;
+    margin: 0px;
+  }
 
-    }
+  .conwrt h2 {
+    font-size: 50px;
+  }
 
-    .contimg img {
-        width: 386px;
-        height: 250px;
-    }
+  .conwrt p {
+    font-size: 17px;
+    text-align: justify;
+    width: 100%;
+  }
 
-    .conwrt {
-        width: 560px;
-        padding: 0px;
-        margin: 0px;
-    }
+  .conicon1 svg {
+    height: 40px;
+    width: 40px;
+  }
 
-    .conwrt h2 {
-        font-size: 50px;
-    }
+  .k h4 {
+    font-size: 18px;
+  }
 
-    .conwrt p {
-        font-size: 17px;
-        text-align: justify;
-        width: 100%;
-    }
+  .btnd {
+    padding: 10px 28px;
+    font-size: 14px;
+  }
 
-    .conicon1 svg {
-        height: 40px;
-        width: 40px;
-    }
-
-    .k h4 {
-        font-size: 18px;
-    }
-
-    .btnd {
-        padding: 10px 28px;
-        font-size: 14px;
-    }
-
-    .apdfd {
-        font-size: 14px;
-    }
+  .apdfd {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1024px) {
-    .container {
-        padding: 0px 40px;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .container {
+    padding: 0px 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .contimg img {
-        width: 500px;
-        height: 350px;
-    }
+  .contimg img {
+    width: 500px;
+    height: 350px;
+  }
 
-    .conwrt {
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-    }
+  .conwrt {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
 
-    .conwrt h2{
-        font-size: 40px;
-        text-align: center;
-        margin: 10px 0px;
-    }
+  .conwrt h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0px;
+    margin-top: 40px;
+  }
 
-    .conwrt p {
-        font-size: 17px;
-        text-align: justify;
-        width: 100%;
-    }
+  .conwrt p {
+    font-size: 17px;
+    text-align: justify;
+    width: 100%;
+  }
 
-    .conicon1 svg {
-        height: 40px;
-        width: 40px;
-    }
+  .conicon1 svg {
+    height: 40px;
+    width: 40px;
+  }
 
-    .k h4 {
-        font-size: 18px;
-    }
+  .k h4 {
+    font-size: 18px;
+  }
 
-    .btnd {
-        padding: 10px 28px;
-        font-size: 14px;
-    }
+  .btnd {
+    padding: 10px 28px;
+    font-size: 14px;
+  }
 
-    .apdfd {
-        font-size: 14px;
-    }
+  .apdfd {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 900px) {
-    .container {
-        padding: 0px 0px;
-        margin-left: 0px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .container {
+    padding: 0px 0px;
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .contimg {
-        padding: 0px 0px;
-    }
+  .contimg {
+    padding: 0px 0px;
+  }
 
-    .sec3 {
-        padding: 0px 0px;
-    }
+  .sec3 {
+    padding: 0px 0px;
+  }
 
-    .contimg img {
-        width: 500px;
-        height: 350px;
-    }
+  .contimg img {
+    width: 500px;
+    height: 350px;
+  }
 
-    .conwrt {
-        width: 100%;
-        height: 100%;
-        padding: 0px 40px;
-    }
+  .conwrt {
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+  }
 
-    .conwrt h2{
-        font-size: 40px;
-        text-align: center;
-        margin: 10px 0px;
-    }
+  .conwrt h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0px;
+    margin-top: 30px;
+  }
 
-    .conwrt p {
-        font-size: 16px;
-        line-height: 1.5;
-    }
+  .conwrt p {
+    font-size: 16.7px;
+    line-height: 1.5;
+  }
 
-    .conicon1 svg {
-        height: 36px;
-        width: 36px;
-    }
+  .conicon1 svg {
+    height: 36px;
+    width: 36px;
+  }
 
-    .k h4 {
-        font-size: 16px;
-    }
+  .k h4 {
+    font-size: 16px;
+  }
 
-    .btnd {
-        padding: 10px 25px;
-        font-size: 14px;
-    }
+  .btnd {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
 
-    .apdfd {
-        font-size: 14px;
-    }
+  .apdfd {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding: 0px;
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-    }
-    .conwrt h2{
-        text-align: center;
-        margin: 10px 0px;
-    }
-    .conwrt p {
-        font-size: 18px;
-        line-height: 1.4;
-        align-items: center;
-    }
+  .container {
+    padding: 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
 
-    .contimg img {
-        width: 500px;
-        height: 350px;
-        align-items: center;
-    }
+  .conwrt h2 {
+    text-align: center;
+    margin: 10px 0px;
+  }
 
-    .conwrt {
-        padding: 0px 40px;
-        width: 100%;
-    }
-    .conicon1 svg {
-        height: 36px;
-        width: 36px;
-    }
+  .conwrt p {
+    font-size: 16px;
+    line-height: 1.4;
+    align-items: center;
+  }
+
+  .contimg img {
+    width: 500px;
+    height: 350px;
+    align-items: center;
+  }
+
+  .conwrt {
+    padding: 0px 40px;
+    width: 100%;
+  }
+
+  .conicon1 svg {
+    height: 36px;
+    width: 36px;
+  }
 }
 
 @media (max-width: 600px) {
-    .container {
-        padding: 0px 0px;
-        flex-direction: column;
-    }
+  .container {
+    padding: 0px 0px;
+    flex-direction: column;
+  }
 
-    .contimg img {
-        width: 400px;
-        height: 300px;
-    }
+  .contimg img {
+    width: 400px;
+    height: 300px;
+  }
 
-    .conwrt {
-        padding: 20px;
-        margin-left: 0px;
-        height: 100%;
-    }
+  .conwrt {
+    padding: 20px;
+    margin-left: 0px;
+    height: 100%;
+  }
 
-    .conwrt h2 {
-        font-size: 32px;
-        text-align: center;
-        margin: 0px;
-    }
+  .conwrt h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 0px;
+  }
 
-    .conwrt p {
-        font-size: 16px;
-        line-height: 1.4;
-    }
+  .conwrt p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
 
-    .conicon1 svg {
-        height: 36px;
-        width: 36px;
-    }
+  .conicon1 svg {
+    height: 36px;
+    width: 36px;
+  }
 
-    .k h4 {
-        font-size: 14px;
-    }
+  .k h4 {
+    font-size: 14px;
+  }
 
-    .btnd {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
+  .btnd {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 
-    .apdfd {
-        font-size: 14px;
-    }
+  .apdfd {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 400px) {
-    .container {
-        padding: 40px 0px;
-    }
+  .container {
+    padding: 40px 0px;
+  }
 
-    .conwrt {
-        height: 100%;
-        padding-top: 0px;
-        margin-left: 0px;
-    }
+  .conwrt {
+    height: 100%;
+    padding-top: 0px;
+    margin-left: 0px;
+  }
 
-    .contimg img {
-        width: 300px;
-        height: 200px;
-        border-radius: 10%;
-        padding: 0px 20px;
-    }
+  .contimg img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 0px 20px;
+  }
 
-    .conwrt h2 {
-        font-size: 28px;
-        text-align: center;
-        margin: 12px 0px;
-        height:40px;
-    }
+  .conwrt h2 {
+    font-size: 28px;
+    text-align: center;
+    margin: 12px 0px;
+    height: 40px;
+  }
 
-    .conwrt p {
-        font-size: 12px;
-        line-height: 1.4rem;
-    }
+  .conwrt p {
+    font-size: 11px;
+    line-height: 1rem;
+  }
 
-    .conicon1 svg {
-        height: 36px;
-        width: 36px;
-    }
+  .conicon1 svg {
+    height: 36px;
+    width: 36px;
+  }
 
-    .k h4 {
-        font-size: 14px;
-    }
+  .k h4 {
+    font-size: 14px;
+  }
 
-    .btnd {
-        padding: 8px 16px;
-        font-size: 12px;
-    }
+  .btnd {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
 
-    .apdfd {
-        font-size: 12px;
-    }
+  .apdfd {
+    font-size: 12px;
+  }
 }
 
-
-/* Media Queries for sec4 */
-
+/* Media Queries for 4th section */
 @media (max-width: 1024px) {
-    .sec4 {
-        padding: 70px 12px;
-        align-items: center;
-        position: relative;
-    }
+  .sec4 {
+    padding: 70px 12px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+  }
 
-    .con1 {
-        padding: 0px;
-    }
+  .con1 {
+    padding: 0px;
+  }
 
-    .grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .con2 h2 {
-        margin: 0px;
-    }
+  .con2 h2 {
+    margin: 0px;
+  }
 
-    .explore2{
-        font-size: 19px;
-    }
-    .explore1 {
-        text-align: center;
-    }
+  .explore2 {
+    font-size: 19px;
+  }
 
-    .gridbox {
-        width: 80%;
-        margin: 40px 0px 0px;
-    }
+  .explore1 {
+    text-align: center;
+  }
 
-    .skillcon {
-        text-align: center;
-        padding: 12px;
-    }
+  .gridbox {
+    width: 80%;
+    margin: 40px 0px 0px;
+  }
 
+  .skillcon {
+    text-align: center;
+    padding: 6px;
+  }
+
+  .skilltitle {
+    padding: 5px;
+  }
 }
 
 @media (max-width: 768px) {
-    .con2 h2 {
-        font-size: 19px;
-        margin: 0px;
-    }
+  .con2 h2 {
+    font-size: 19px;
+    margin: 0px;
+  }
 
-    .con1 {
-        margin: 20px 0px 0px;
-    }
+  .con1 {
+    margin: 20px 0px 0px;
+  }
 
-    .sec4 {
-        padding: 48px 16px;
-    }
+  .sec4 {
+    padding: 48px 16px;
+  }
 
-    .grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .explore1 {
-        text-align: center;
-    }
+  .explore1 {
+    text-align: center;
+  }
 
-    .gridbox {
-        width: 90%;
-        margin: 40px 0px 0px;
+  .gridbox {
+    width: 90%;
+    margin: 40px 0px 0px;
+  }
 
-    }
+  .explore2 {
+    font-size: 19px;
+  }
 
-    .explore2 {
-        font-size: 19px;
-    }
+  .gridhead {
+    font-size: 18px;
+  }
 
-    .gridhead {
-        font-size: 18px;
-    }
-
-    .skillcon {
-        padding: 6px;
-    }
-
-
+  .skillcon {
+    padding: 6px;
+  }
 }
 
 @media (max-width: 480px) {
-    .con2 h2 {
-        font-size: 15px;
-        width: 100%;
-    }
+  .con2 h2 {
+    font-size: 15px;
+    width: 100%;
+  }
 
-    .sec4 {
-        padding: 40px 10px;
-    }
-    .gridbox{
-        margin: 20px 0px 0px;
-        width: 90%;
-    }
-    .explore2 {
-        font-size: 19px;
-    }
+  .sec4 {
+    padding: 40px 10px;
+  }
 
-    .gridhead {
-        font-size: 18px;
-    }
+  .gridbox {
+    margin: 20px 0px 0px;
+    width: 90%;
+  }
 
-    .skilltitle {
-        padding: 5px;
-    }
+  .explore2 {
+    font-size: 19px;
+  }
 
-    .skillcon {
-        font-size: 10px;
-        margin: 0px;
-        font-weight: 900;
-    }
+  .gridhead {
+    font-size: 18px;
+  }
+
+  .skilltitle {
+    padding: 5px;
+  }
+
+  .skillcon {
+    font-size: 10px;
+    margin: 0px;
+    font-weight: 900;
+  }
+}
+
+/* Media Queries for 5th section */
+@media (max-width: 1024px) {
+  .project {
+    width: 100%;
+    padding: 0px;
+    position: relative;
+  }
+
+  .project1 {
+    padding: 0px 20px;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .project2 {
+    padding: 0px 20px;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .projectdet {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .projectcon2 {
+    border-radius: 20px;
+    padding: 0px 0px;
+    width: 60%;
+  }
+
+  .projectcon1 {
+    width: 40%;
+    padding: 0px;
+  }
+
+  .projectcon1 img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .projecthead {
+    font-size: 18px;
+  }
+
+  .projectno {
+    font-size: 24px;
+  }
+
+  .projectdet {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .h2 {
+    font-size: 28px;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .projectcon1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project1,
+  .project2 {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+  }
+
+  .projectcon2 {
+    width: 100%;
+  }
+
+  .projecthead {
+    font-size: 24px;
+  }
+
+  .projectno {
+    font-size: 30px;
+  }
+
+  .projectdet {
+    font-size: 13px;
+  }
+
+  .projectbtn {
+    padding: 8px 16px;
+    text-align: center;
+  }
+}
+
+/* Media Queries for 6th section */
+@media (max-width: 1024px) {
+  .contact {
+    padding: 40px 20px;
+  }
+
+  .contactus {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .contactform {
+    width: 100%;
+  }
+
+  .contactus h2 {
+    font-size: 26px;
+  }
+
+  .contactus p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .contactform {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 20px;
+  }
+
+  .contactus {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .contactform {
+    width: 100%;
+  }
+
+  .info svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contactus h2 {
+    font-size: 24px;
+  }
+
+  .contactus p {
+    font-size: 14px;
+  }
+
+  .forminput,
+  .formbtn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 20px 10px;
+  }
+
+  .contactus {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contactform {
+    width: 100%;
+  }
+
+  .contactus h2 {
+    font-size: 22px;
+  }
+
+  .contactus p {
+    font-size: 12px;
+  }
+
+  .info svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .spans {
+    font-size: 14px;
+  }
+
+  .formlabel {
+    font-size: 12px;
+  }
+
+  .forminput,
+  .formbtn {
+    font-size: 14px;
+  }
 }
