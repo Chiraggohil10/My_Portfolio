@@ -189,13 +189,13 @@
   }
 
   .a3 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .a4 {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 8px;
-    line-height: 1.4rem;
+    line-height: 1.2rem;
   }
 
   .chirag img {
@@ -485,8 +485,8 @@
   }
 
   .conwrt p {
-    font-size: 11px;
-    line-height: 1rem;
+    font-size: 13px;
+    line-height: 1.2rem;
   }
 
   .conicon1 svg {
@@ -641,13 +641,13 @@
   }
 
   .project1 {
-    padding: 0px 20px;
+    padding: 0px 35px;
     width: 100%;
     gap: 15px;
   }
 
   .project2 {
-    padding: 0px 20px;
+    padding: 0px 35px;
     width: 100%;
     gap: 15px;
   }
@@ -723,6 +723,7 @@
 
   .projectdet {
     font-size: 13px;
+    line-height: 1.2rem;
   }
 
   .projectbtn {
@@ -734,7 +735,7 @@
 /* Media Queries for 6th section */
 @media (max-width: 1024px) {
   .contact {
-    padding: 40px 20px;
+    padding: 40px 40px;
   }
 
   .contactus {
@@ -755,20 +756,11 @@
   }
 }
 
-@media (max-width: 600px) {
-  .contact {
-    flex-direction: column;
-  }
 
-  .contactform {
-    width: 100%;
-  }
-
-}
 
 @media (max-width: 768px) {
   .contact {
-    padding: 40px 20px;
+    padding: 40px 40px;
   }
 
   .contactus {
@@ -798,10 +790,20 @@
     font-size: 14px;
   }
 }
+@media (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .contactform {
+    width: 100%;
+  }
+
+}
 
 @media (max-width: 480px) {
   .contact {
-    padding: 20px 10px;
+    padding: 40px 40px;
   }
 
   .contactus {
