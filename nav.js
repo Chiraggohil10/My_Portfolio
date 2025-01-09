@@ -2,14 +2,16 @@ const burger = document.querySelector('.burger');
 const navLinks = document.querySelector('.nav');
 const navLinksItems = document.querySelectorAll('.nav a');
 
-burger.addEventListener('click', () => {
+function toggleNav() {
     navLinks.classList.toggle('active');
-});
+}
+
+function closeNav() {
+    navLinks.classList.remove('active');
+}
+
+burger.addEventListener('click', toggleNav);
 
 navLinksItems.forEach(link => {
-    link.addEventListener('click', () => {
-        if (navLinks.classList.contains('active')) {
-            navLinks.classList.remove('active');
-        }
-    });
+    link.addEventListener('click', closeNav);
 });
